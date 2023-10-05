@@ -17,3 +17,4 @@ test_wrapped_real: The wrapped phase as input of the TanDEM-X testing dataset is
 
 test_absolute_real: The absolute phase as ground truth of the TanDEM-X testing dataset is in this folder and named 000001.mat to 000100.mat.
 
+The dataset is saved in Baidu Netdisk (https://pan.baidu.com/s/1UHLmMfnm55gH5B4YeWgtJg) and the access code is oej2.
