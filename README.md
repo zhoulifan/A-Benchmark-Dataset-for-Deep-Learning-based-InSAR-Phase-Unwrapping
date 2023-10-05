@@ -4,10 +4,16 @@ We present a large and diverse benchmark dataset consisting of 31,100 pairs of
 and 1,000 pairs for testing. In addition, 100 pairs of real TanDEM-X interferograms and their absolute phase image patches are provided to examine the generalization ability of DL-based PU methods. Based on this dataset, we can extensively validate and compare existing deep convolutional neural networks (DCNNs). We have made InSAR-DLPU publicly available, offering an important resource to support studies on DL-based PU in InSAR applications (e.g., topographic mapping and deformation monitoring).
 
 The complete dataset of training and testing pairs is conveniently archived in MATLAB-compatible .mat file format. To better illustrate the above data, each pair of data is stored as color-rendered PNG images for quick look. The structure of InSAR-DLPU is as follows:
-• train wrapped: The wrapped phase as input of the training dataset is in this folder and named 000001.mat to 030000.mat;
-• train absolute: The absolute phase as ground truth of the training dataset is in this folder and named 000001.mat to 030000.mat;
-• test wrapped: The wrapped phase as input of the testing dataset is in this folder and named 000001.mat to 001000.mat;
-• test absolute: The absolute phase as ground truth of the testing dataset is in this folder and named 000001.mat to 001000.mat;
-• test wrapped real: The wrapped phase as input of the TanDEM-X testing dataset is in this folder and named 000001.mat to 000100.mat;
-• test absolute real: The absolute phase as ground truth of the TanDEM-X testing dataset is in this folder and named 000001.mat to 000100.mat.
+
+train_wrapped: The wrapped phase as input of the training dataset is in this folder and named 000001.mat to 030000.mat;
+
+train_absolute: The absolute phase as ground truth of the training dataset is in this folder and named 000001.mat to 030000.mat;
+
+test_wrapped: The wrapped phase as input of the testing dataset is in this folder and named 000001.mat to 001000.mat;
+
+test_absolute: The absolute phase as ground truth of the testing dataset is in this folder and named 000001.mat to 001000.mat;
+
+test_wrapped_real: The wrapped phase as input of the TanDEM-X testing dataset is in this folder and named 000001.mat to 000100.mat;
+
+test_absolute_real: The absolute phase as ground truth of the TanDEM-X testing dataset is in this folder and named 000001.mat to 000100.mat.
 
